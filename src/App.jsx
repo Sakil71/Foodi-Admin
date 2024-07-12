@@ -19,7 +19,7 @@ const App = () => {
       <div className='w-[95%] md:w-[90%] lg:w-[90%] mx-auto flex justify-between'>
         <Leftside></Leftside>
 
-        <div className='w-full md:w-[50%] lg:w-[50%] mx-auto px-5'>
+        <div className='w-full md:w-[80%] lg:w-[80%] mx-auto px-5'>
           <Routes>
             <Route path="/add" element={<Add url={url}></Add>}></Route>
             <Route path="/list" element={<List url={url}></List>}></Route>
